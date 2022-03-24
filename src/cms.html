@@ -7,6 +7,16 @@
   <title>Content Manager</title>
 
   <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170497426-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170497426-1');
+</script>
+
 </head>
 <body>
   <script src="<%= htmlWebpackPlugin.files.chunks.cms.entry %>"></script>
